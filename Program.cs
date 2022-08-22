@@ -41,7 +41,7 @@ namespace WhatsappGroupMessage
 
             try
             {
-                //Open group
+                //Open group (In this example the group is called 'test', Modify the group name as required
                 driver.FindElement(By.XPath("//span[@title='test']")).Click();
 
                 //Type message
